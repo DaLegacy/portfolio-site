@@ -1,0 +1,51 @@
+:root {
+  --inner-nav-spacing-padding: 10px;
+  --inner-nav-spacing-margin: 10px;
+  --inner-nav-width: 50%;
+
+  --nav-tabs-spacing-padding: 10px;
+  --nav-tabs-width: 75%;
+}
+
+html, body{
+  margin: 0 !important;
+  padding: 0 !important;
+  font-size: 18px;
+}
+
+#main-nav-controller{
+  background-color: lightslategray !important;
+  padding: 20px !important;
+}
+
+#nav-controller{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+}
+
+#nav-logo-controller{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: var(--inner-nav-width);
+  padding: var(--inner-nav-spacing-padding);
+  margin: var(--inner-nav-spacing-margin);
+}
+
+#nav-list-controller{
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  width: var(--inner-nav-width);
+  padding: var(--inner-nav-spacing-padding);
+  margin: var(--inner-nav-spacing-margin);
+}
+
+#nav-tabs-container-controller{
+  justify-content: space-around;
+  background-color: red;
+  width: var(--nav-tabs-width);
+  padding: var(--nav-tabs-spacing-padding);
+}
