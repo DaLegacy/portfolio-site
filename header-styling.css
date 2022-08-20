@@ -32,12 +32,13 @@ html, body{
   width: var(--inner-nav-width);
   padding: var(--inner-nav-spacing-padding);
   margin: var(--inner-nav-spacing-margin);
+
 }
 
 #nav-list-controller{
   display: flex;
   flex-direction: row;
-  justify-content: right;
+  justify-content: space-around;
   width: var(--inner-nav-width);
   padding: var(--inner-nav-spacing-padding);
   margin: var(--inner-nav-spacing-margin);
@@ -48,4 +49,30 @@ html, body{
   background-color: red;
   width: var(--nav-tabs-width);
   padding: var(--nav-tabs-spacing-padding);
+}
+
+.nav-img{
+  width: 10%;
+}
+
+.nav-text{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  background-color: red;
+}
+
+.nav-text a{
+  font-size: 150% !important;
+  font-weight: 300;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-text a:hover{
+  text-decoration: none;
+  color: white;
 }
